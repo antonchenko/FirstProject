@@ -1,15 +1,61 @@
 <!DOCTYPE html>
-<html>
+  <html lang=en>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project from Figma</title>
+      <link rel="stylesheet" href="fonts/fonts.css">
+      <link rel="stylesheet" href="styles.css">
+   </head>
 
-<head>
-     <meta charset="utf-8">
-     <title>Мой первый сайт</title>
+   <body>
+     <div class="wrapper">
+     <header class="header">
+       <div class="logo"> </div>
+      
+      <nav class="menu">
+        <a class="menu__item" href='#'>start</a>
+        <a class="menu__item menu__item_active" href='#'>services</a>
+        <a class="menu__item" href='#'>about</a>
+        <a class="menu__item" href='#'>blog</a>
+        <a class="menu__item" href='#'>contact us</a> 
+      </nav>
 
-</head>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item__box" href="#">start</a></li>
+          <li><a class="menu__item__box" href="#">services</a></li>
+          <li><a class="menu__item__box" href="#">about</a></li>
+          <li><a class="menu__item__box" href="#">blog</a></li>
+          <li><a class="menu__item__box" href="#">contact us</a></li>
+        </ul>
+      </div>
 
-<body>
-  <hl>АО «Почта России»</hl>
-     <p>Тел.: +7 (495) 956-20-67</p>
-</body>
+     </header>
 
-</html>
+     <section class="main">
+         <h1 class="main__title"> Building an App
+           <span class="main__title-text_highligh">
+             Without Design Expertise?
+            </span>
+          </h1>
+
+         <p class="main__subtitle"> 
+           I help tech startups design better digital products without hiring a full-time designer
+          </p>
+         <a class="main__button" href="#"> 
+           Schedule free consultation
+         </a>
+     </section>
+    <footer>
+      <div class="circle"> </div> 
+      <div class="circle"> </div> 
+      <div class="circle"> </div> 
+    </footer>
+     </div>
+  </body>
+  </html>
